@@ -1,5 +1,6 @@
-.body {
-    height: 100vh;
+.container {
+    background: pink;
+    min-height: 100vh;
 }
 
 .row {
@@ -13,7 +14,7 @@
     background-image: url("../photos/background.jpg"); ;
     background-size: cover;
     background-position: center;
-    /* height: 100vh; */
+    height: 40vh;
     /* display: flex; */
     /* flex-direction: column;
     justify-content: center;
