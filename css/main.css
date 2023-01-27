@@ -1,6 +1,9 @@
+body {
+    min-height: 100vh;
+}
+
 .container {
     background: rgb(236, 228, 230);
-    min-height: 100vh;
 }
 
 .row {
@@ -14,7 +17,7 @@
     background-image: url("../photos/background.jpg"); ;
     background-size: cover;
     background-position: center;
-    height: 35vh;
+    height: 30vh;
     /* display: flex; */
     /* flex-direction: column;
     justify-content: center;
@@ -23,14 +26,14 @@
     padding: 0 20px;
     color: white; */
 }
-
 .hero {
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.hero img {
-    width: 80%;
+.logo-img {
+    width: 70%;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -71,7 +74,13 @@ footer {
 }
 
 @media only screen and (min-width: 600px) {
-    /* .row {
+    .main {
         flex-direction: row;
-    } */
+        align-items: center;
+    }
+
+    .hero {
+        height: 100vh;
+        justify-content: center;
+    }
   }
