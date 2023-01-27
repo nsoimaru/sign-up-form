@@ -39,6 +39,26 @@
     margin: 0 auto;
 }
 
+.content {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.form {
+    margin-top: 1rem;
+}
+
+fieldset {
+    flex-direction: row;
+    border: none;
+    padding: 0.5rem 0 0 0;
+}
+
+footer {
+    margin: 0.5rem auto;
+    text-align: center;
+}
+
 @media only screen and (min-width: 600px) {
     /* .row {
         flex-direction: row;
