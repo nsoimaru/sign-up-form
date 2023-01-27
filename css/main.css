@@ -1,0 +1,22 @@
+.body {
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+}
+
+.hero {
+    /* url("photo/background.jpg"); */
+    background-image: url("../photos/background.jpg"); ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    text-align: center;
+    padding: 0 20px;
+    color: white; */
+}
